@@ -1,11 +1,2 @@
 #!/bin/bash
-
-#include <studio.h>
-
-int main(void)
-{
-printf("%s\n", _CFILE_);
-return(0);
-
-/* print a file called CFILE but has no return */
-}
+gcc -E $CFILE -o c
