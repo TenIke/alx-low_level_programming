@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *  main - entry point
- * Description: 'output a sentence with puts'
- * return: Always 0 (sucess)
- */
+*main - entry point
+*Description: output a sentence with puts
+*Return: Always 0(success)
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
