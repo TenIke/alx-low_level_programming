@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+* main - entry point
+*
+* Description:'print size'
+* Return: Always 0(success)
+*/
 int main(void)
 
 {
