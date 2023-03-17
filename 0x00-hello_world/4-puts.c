@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *  using puts instead of printf
  * with a no return
  * Description: 'output a sentence with puts'
