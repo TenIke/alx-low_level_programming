@@ -2,7 +2,8 @@
 /*
  * main - entry point
  *
- * Return: Always 0
+ * Description:'print s sentence using printf' 
+ * Return: Always 0(success)
  */
 int main(void)
 
