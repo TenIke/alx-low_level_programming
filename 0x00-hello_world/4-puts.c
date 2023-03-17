@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /* using puts instead of printf
  * with a no return*/
 
