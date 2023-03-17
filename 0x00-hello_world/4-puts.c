@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *  using puts instead of printf
- * with a no return
+ *  main - entry point
  * Description: 'output a sentence with puts'
  * return: Always 0 (sucess)
  */
