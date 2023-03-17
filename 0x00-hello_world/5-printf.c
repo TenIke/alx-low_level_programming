@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
- * main - entry point
- *
- * Description:'print sentence using printf'
- * Return: Always 0(success)
- */
+/**
+* main - entry point
+*
+* Description:'print sentence using printf'
+* Return: Always 0(success)
+*/
 int main(void)
 
 {
