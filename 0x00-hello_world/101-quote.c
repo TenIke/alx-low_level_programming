@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <unistd.h>
+/**
+* main - entry point
+* Description: 'writing a print code without using peintf or puts'
+*Return: value of 1
+*/
+int main(void)
+{
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+		return (1);
+}
+
