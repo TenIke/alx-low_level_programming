@@ -6,7 +6,7 @@
 *Declare a variable called digit of type int.
 *Initialize the variable digit to the character ‘0’.
 *While the variable digit is less than or equal to the character ‘10’.
-*Print a newline character.* 
+*Print a newline character.
 *
 *Return: Always 0 (Success)
 */
