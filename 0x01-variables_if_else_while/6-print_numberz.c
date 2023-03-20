@@ -5,9 +5,7 @@
 *Description:
 *Declare a variable called digit of type int.
 *Initialize the variable digit to the character ‘0’.
-*While the variable digit is less than or equal to the character ‘9’, do the following:
-	a. Print the value of the variable digit.
-	b. Increment the variable digit by 1.
+*While the variable digit is less than or equal to the character ‘10’.
 *Print a newline character.* 
 *
 *Return: Always 0 (Success)
