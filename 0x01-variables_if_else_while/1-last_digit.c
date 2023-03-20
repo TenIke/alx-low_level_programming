@@ -3,14 +3,17 @@
 #include <time.h>
 
 /**
-* Main - Entry point
+*Main - Entry point
 *
-* Description: Generating a random number using the rand() function.
+*Description: Generating a random number using the rand() function.
 *
-* Return: Always (0)
+*Printing the last digit of the random number.
+*
+*Return: Always (0)
 */
 
 int main(void)
+
 {
 	int n;
 
