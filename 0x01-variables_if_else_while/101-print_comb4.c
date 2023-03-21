@@ -2,7 +2,7 @@
 /**
  *Main - Start entry
  *
- *Description
+ *Description: Prints all combinations of three digits with,and space followed by new line
  *
  *Return: Alwarys 0 (Success)
  */
