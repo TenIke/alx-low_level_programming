@@ -5,7 +5,7 @@
 *
 * Description:The for loop is used to iterate through the alphabet
 *
-* Return: Always (0)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
