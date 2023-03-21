@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Main - Start entries
- *
- * Description: write a program using putchar
- *
- * Return: Always 0 (Success)
- */
+*main - Start entries
+*
+*Description: write a program using putchar
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int i;
