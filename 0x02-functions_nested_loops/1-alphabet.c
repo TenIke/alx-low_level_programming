@@ -2,8 +2,10 @@
 #include "main.h"
 /**
 *main - Start entries
-* FUNCTIONALITY *
+*
 *Description: print alphabets in lower case
+*
+*@c to increment the alphabets
 *
 *Return: Always 0
 */
