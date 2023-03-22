@@ -5,21 +5,22 @@
 *
 *@i: input number as an integer.
 *
-* Return: last digit.
+*Return: last digit.
 */
 int print_last_digit(int i)
 {
-	int n;
-
-	n = i % 10;
-	if (n < 0)
+	if (i < 0)
 	{
-		_putchar(-n + 48);
-		return (-1);
+		i = -(i % 10);
+	}
+	else if (i > 0)
+	{
+		i = i % 10;
 	}
 	else
 	{
-		_putchar(n + 48);
-		return (1);
+		i = 0;
 	}
+	_putchar(i + '0');
+	return (i);
 }
