@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - start entry
- * description: a function that takes a pointer to and update the value n 
+ * description: a function that takes a pointer to and update the value n
  * reset_to_98 - reset value of an integer to 98
  * @n: parameter targeted
  * return: always 0
