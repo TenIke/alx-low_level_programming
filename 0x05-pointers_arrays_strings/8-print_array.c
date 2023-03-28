@@ -6,14 +6,14 @@
 *@n: value to be evaluate.
 *Return: nothing.
 */
-void print_array(int *a, int *n)
+void print_array(int *a, int n)
 {
-	int j;
+	int x;
 
-	for (j = 0; j < n; j++)
+	for (x = 0 ; x < n; x++)
 	{
-		printf("%d", a[j]);
-		if (j != n - 1)
+		printf("%d", a[x]);
+		if (x != n - 1)
 		{
 			printf(", ");
 		}
