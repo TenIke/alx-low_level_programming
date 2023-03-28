@@ -5,7 +5,7 @@
 *@str: value to be evaluate.
 *Return: nothing.
 */
-void puts(char *str)
+void puts2(char *str)
 {
 	int a = 0;
 
