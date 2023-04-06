@@ -1,33 +1,40 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* is_prime_number - returns true if the number is prime
-*@n: the number to check
-*
-*Return: true if the number is prime
-*/
+ * sqtRecursive - computes square root recursively
+ * @n: given number
+ * @m: comparison number
+ * Return: 1 if not found sqrroot, else sqrroot
+ **/
+int sqtRecursive(int n, int m)
+{
+	if (n <= 0)
+		return (-1);
+	if (n * n == m)
+		return (n);
+	return (sqtRecursive(n - 1, m));
+}
+/**
+ * _sqrt_recursion - finds the natural square root of a number
+ * @n: given number
+ * Return: square root of n or -1
+ **/
+int _sqrt_recursion(int n)
+{
+	if (n == 1)
+		return (1);
+	return (sqtRecursive(n / 2, n));
+}
+/**
+ * is_prime_number - checks if a given number is prime
+ * @n: given number
+ * Return: 1 if number is prime else 0
+ **/
 int is_prime_number(int n)
 {
-	int p = n / 2;
-
-	if (n <= 1)
+	if (n <= 1 || _sqrt_recursion(n) >= 1)
 		return (0);
-	return (is_prime(n, p));
-}
-
-/**
-* is_prime - returns the 1 if n is prime
-* @n: number to be checked
-* @p: number to start checking from
-*
-* Return: 1 if n is prime, 0 otherwise
-*/
-
-int is_prime(int n, int p)
-{
-	if (p <= 1)
+	if (_sqrt_recursion(n) == -1)
 		return (1);
-	else if (n % p == 0)
-		return (0);
-	return (is_prime(n, p - 1));
+	return (_sqrt_recursion(n));
 }
