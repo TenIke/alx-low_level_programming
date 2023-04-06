@@ -23,7 +23,7 @@ int is_prime_number(int n)
 * Return: 1 if n is prime, 0 otherwise
 */
 
-int is_prime(int n, int p)
+int is_prime_number(int n, int p)
 {
 	if (p <= 1)
 		return (1);
