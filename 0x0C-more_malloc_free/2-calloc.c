@@ -9,15 +9,18 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	char *block;
 	unsigned int a;
-	char *memory;
 
-	if (nmemb == 0 || size 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
-	memory = malloc(nmemb * size);
-	if (memory == NULL)
+	block = malloc(nmemb * size);
+	if (block != NULL)
+	{
+		for (a = 0; a < (nmemb * size); a++)
+			block[a] = 0;
+		return (block);
+	}
+	else
 		return (NULL);
-	for (a = 0; a < nmemb * size; a++)
-		*(memory + a) = 0;
-	return ((void *)memory);
 }
