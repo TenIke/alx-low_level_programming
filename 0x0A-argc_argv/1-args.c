@@ -6,10 +6,9 @@
  * @argv: array of pointer to arguement strings
  * Return: 0
  **/
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-
-	argv = argv;
 	printf("%d\n", argc - 1);
+
 	return (0);
 }
