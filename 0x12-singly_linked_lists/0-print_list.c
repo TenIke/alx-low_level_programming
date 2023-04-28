@@ -12,12 +12,18 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t a;
+	const list_t *cursor = h;
+size_t count = 0;
 
-	for (a = 0; h; a++)
-	{
-		printf("[%d] &s\n", h->len, h->str);
-		h = h->next;
-	}
-	return (a);
+while (cursor != NULL)
+{
+if (cursor->str != NULL)
+printf("[%d] %s\n", cursor->len, cursor->str);
+else
+printf("[0] (nil)\n");
+count += 1;
+cursor = cursor->next;
+}
+
+return (count);
 }
