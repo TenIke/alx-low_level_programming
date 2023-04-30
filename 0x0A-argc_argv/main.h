@@ -70,9 +70,3 @@ int wildcmp(char *s1, char *s2);
 
 
 #endif
--- INSERT --                                                                                                                       71,1          Bot
-
-
-
-
-
